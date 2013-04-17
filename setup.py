@@ -8,10 +8,10 @@ setup(
     author = "greatghoul",
     author_email = "greatghoul+pyremark@gmail.com",
     description = ("Remark slides utilities"),
-    install_requires = ['pyinotify'],
+    install_requires = ['clik', 'pyinotify'],
     platforms='any',
     license = "MIT",
     url = "http://www.g2w.me/tag/pyremark/",
-    # packages=['pyremark'],
+    # packages=['remark'],
     scripts = ['remark.py']
 )
